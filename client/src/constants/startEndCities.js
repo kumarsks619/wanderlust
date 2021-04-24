@@ -1,0 +1,15 @@
+export const startEndCitiesData = [
+    'Mumbai',
+    'Delhi',
+    'Banglore',
+    'Hyderabad',
+    'Ahemdabad',
+    'Chennai',
+    'Kolkata',
+    'Surat',
+    'Pune',
+    'Jaipur',
+    'Lucknow',
+    'Kanpur',
+    'Nagpur',
+]

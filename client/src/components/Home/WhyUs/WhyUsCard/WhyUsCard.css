@@ -1,0 +1,32 @@
+.whyUsCard {
+    width: 25vw;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 0;
+}
+
+.whyUsCard img {
+    width: 100px;
+    margin: 10px auto;
+}
+
+.whyUsCard__green {
+    border-bottom: 10px solid #27ae60;
+}
+
+.whyUsCard__purple {
+    border-bottom: 10px solid #8e44ad;
+}
+
+.whyUsCard__red {
+    border-bottom: 10px solid #c0392b;
+}
+
+
+@media (max-width: 1000px) {
+    .whyUsCard {
+        width: 100%;
+        margin-top: 20px;
+    }
+}

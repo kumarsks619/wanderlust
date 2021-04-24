@@ -1,0 +1,27 @@
+.dashboard__appBarHeaderMobile {
+    display: none;
+}
+
+.dashboard__appBarBtns {
+    margin-left: auto;
+}
+
+.dashboard__appBarBtn {
+    background-color: #fff !important;
+}
+
+.dashboard__drawerList > a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.794);
+}
+
+@media (max-width: 1000px) {
+    .dashboard__appBarHeaderDesktop {
+        display: none;
+    }
+
+    .dashboard__appBarHeaderMobile {
+        display: inline-block;
+    }
+
+}

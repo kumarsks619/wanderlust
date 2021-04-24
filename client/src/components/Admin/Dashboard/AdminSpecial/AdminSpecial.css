@@ -1,0 +1,42 @@
+.adminSpecial__divider {
+    margin-bottom: 30px !important;
+}
+
+.adminSpecial__card {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.adminSpecial__cardImage {
+    flex: 0.3;
+}
+
+.adminSpecial__cardHeader {
+    flex: 0.6;
+    text-transform: capitalize;
+}
+
+.adminSpecial__cardAction {
+    flex: 0.1;
+}
+
+
+@media (max-width: 1000px) {
+    .adminSpecial__header {
+        font-size: 1.8rem !important;
+    }
+
+    .adminSpecial__card {
+        flex-direction: column;
+        height: 300px;
+    }
+
+    .adminSpecial__cardImage {
+        flex: 0.5;
+    }
+
+    .adminSpecial__cardHeader {
+        flex: 0.5;
+    }
+}

@@ -1,0 +1,103 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.header__top {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 20px;
+    padding: 5px 0;
+    justify-content: space-between;
+}
+
+.header__top span {
+    color: #fff;
+    margin: 0 5px;
+}
+
+.header__top span:hover {
+    cursor: pointer;
+    color: #dc3545;
+}
+
+.header__topRight {
+    display: flex;
+}
+
+.header__topUserName {
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__topUserName .MuiAvatar-root {
+    width: 25px;
+    height: 25px;
+    background-color: #dc3545;
+    margin-left: 5px;
+}
+
+.header__top span a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header__top span a:hover {
+    color: #dc3545;
+}
+
+.header__top .MuiSvgIcon-root {
+    color: #dc3545;
+}
+
+.header .nav-pills {
+    margin-left: auto;
+}
+
+.header .navbar-brand {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.header .nav-link {
+    background-color: rgba(0, 0, 0, 0.376);
+    color: #fff !important;
+    border-radius: 5px;
+    padding: 10px 25px !important;
+    margin: 0 10px !important;
+    font-weight: 700;
+    box-shadow: 3px 3px 5px #000, -3px 3px 5px #000;
+}
+
+.header .nav-link.active {
+    background-color: #dc3545 !important;
+}
+
+
+@media (max-width: 1000px) {
+    .header__top {
+        display: block;
+    }
+
+    .header__topLeft {
+        text-align: center;
+    }
+
+    .header__topRight {
+        margin-top: 10px;
+        justify-content: space-between;
+    }
+
+    .header .nav-item {
+        margin-top: 10px;
+    }
+
+    .header .nav-link {
+        box-shadow: none;
+    }
+}

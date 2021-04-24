@@ -1,0 +1,138 @@
+.home__searchBar {
+    width: 55vw;
+    margin: 25px auto;
+    display: flex;
+}
+
+.home__searchInputAndResultsWrapper {
+    width: 100%;
+    position: relative;
+}
+
+.home__searchResults {
+    position: absolute;
+    width: 100%;
+    max-height: 400px;
+    overflow-y: auto;
+    z-index: 10000000;
+    margin-top: 5px;
+    background-color: rgba(0, 0, 0, 0.479);
+    padding: 10px;
+}
+
+.home__searchResult {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    margin-bottom: 10px;
+    align-items: center;
+    text-decoration: none !important;
+    border-radius: 5px;
+    transition: all 0.7s ease;
+}
+
+.home__searchResult:hover {
+    background-color: rgba(0, 0, 0, 0.589);
+}
+
+.home__searchResult:hover .home__searchResultDetails {
+    color: #dc3545;
+}
+
+.home__searchResultImage {
+    flex: 0.2;
+    margin-right: 20px;
+}
+
+.home__searchResultImage img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+
+.home__searchResultDetails {
+    flex: 0.8;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.home__searchBar input {
+    padding: 25px 25px 30px;
+    border-radius: 25px !important;
+}
+
+.home__searchBar .input-group-append {
+    position: absolute;
+    right: 10px;
+}
+
+.home__searchBar .btn {
+    width: 100px;
+    border-radius: 17px !important;
+    margin: 10px 0;
+    z-index: 10;
+}
+
+.home__createPlan {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.home__createPlan:hover {
+    box-shadow: 3px 3px 5px #ddd, -3px 3px 5px #ddd;
+}
+
+.home__createPlan p {
+    width: 150px;
+    margin: 0;
+    font-size: 1.1rem;
+    padding-left: 10px;
+}
+
+.home__showcaseHeading {
+    margin: 50px 15px 10px;
+}
+
+.home__headingSpecial {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 200px 10px 10px;
+    width: fit-content;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1000px) {
+    .home__searchBar {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .home__searchResults {
+        background-color: rgba(0, 0, 0, 0.815);
+    }
+
+    .home__showcaseHeading {
+        margin: 50px 20px 20px;
+        text-align: left;
+    }
+
+    .home__createPlan {
+        margin-top: 10px;
+        width: fit-content;
+        margin-left: auto;
+        padding: 5px;
+    }
+
+    .home__createPlan p {
+        font-size: 0.8rem;
+        margin: 0;
+        width: fit-content;
+    }
+}

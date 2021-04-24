@@ -1,0 +1,26 @@
+.imageCarousel {
+    height: 500px;
+}
+
+.imageCarousel img {
+    height: 500px;
+    filter: brightness(60%);
+}
+
+.imageCarousel .carousel-control-next-icon,.imageCarousel .carousel-control-prev-icon{
+    background-color: #e74c3c;
+    border-radius: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+@media (max-width: 1000px) {
+    .imageCarousel {
+        height: 300px;
+    }
+
+    .imageCarousel img  {
+        height: 300px;
+    }
+}

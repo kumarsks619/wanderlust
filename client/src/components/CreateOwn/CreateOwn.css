@@ -1,0 +1,142 @@
+.createOwn__headerWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.createOwn__headerWrapper .createOwn__agentBtn {
+    padding: 10px 20px;
+    background-color: #dc3545;
+}
+
+.createOwn__headerWrapper .createOwn__agentBtn:hover {
+    background-color: #f11a30;
+}
+
+.createOwn__form {
+    margin-top: 20px;
+}
+
+.createOwn__formLabel {
+    font-size: 1.3rem !important;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+.createOwn__formGroup1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.createOwn__icon {
+    font-size: 50px !important;
+    color: #dc3545;
+}
+
+.createOwn__formGroup2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.createOwn__formGroup2 > .MuiFormControl-root {
+    flex: 0.3;
+}
+
+.createOwn__formGroup3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.createOwn__formGroup3 .MuiFormGroup-root {
+    flex-direction: row;
+}
+
+.createOwn__reachTransport {
+    flex: 0.5;
+    margin-left: auto;
+}
+
+.createOwn__formGroup4 {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 25px;
+}
+
+.createOwn__formGroup4 .createOwn__formLabel {
+    width: 80%;
+}
+
+.createOwn__formGroup4 fieldset {
+    width: 100%;
+}
+
+.createOwn__formGroup4 .MuiFormGroup-root {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.createOwn__formGroup5 {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 25px;
+}
+
+.createOwn__formGroup5 .createOwn__formLabel {
+    width: 300px;
+}
+
+.createOwn__formGroup5 fieldset {
+    width: 100%;
+}
+
+.createOwn__formGroup5 .MuiFormGroup-root {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.createOwn__formGroup6 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.createOwn__formGroup6 .dynamicInput {
+    padding: 0 20px 20px 0;
+}
+
+.createOwn__formGroup6 .MuiFormControl-root {
+    width: 200px;
+}
+
+.createOwn__formGroup6 .createOwn__addBtn {
+    padding: 10px 20px;
+    background-color: #dc3545;
+}
+
+.createOwn__formGroup6 .createOwn__addBtn:hover {
+    background-color: #f11a30;
+}
+
+.createOwn__submitBtn {
+    width: 100% !important;
+    padding: 15px !important;
+    background-color: #dc3545 !important;
+    margin: 30px 0 !important;
+}
+
+.createOwn__submitBtn:hover {
+    background-color: #f11a30 !important;
+}
+
+.createOwn__okayBtn {
+    padding: 10px 25px !important;
+    background-color: #dc3545 !important;
+    margin-top: 20px !important;
+}
+
+.createOwn__okayBtn:hover {
+    background-color: #f11a30 !important;
+}

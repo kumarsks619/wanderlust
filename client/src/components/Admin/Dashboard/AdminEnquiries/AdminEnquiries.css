@@ -1,0 +1,10 @@
+.adminEnquiries__divider {
+    margin-bottom: 30px !important;
+}
+
+@media (max-width: 1000px) {
+    .adminEnquiries__tableContainer {
+        width: 62vw !important;
+        overflow-x: auto !important;
+    }
+}

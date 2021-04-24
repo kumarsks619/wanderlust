@@ -1,0 +1,51 @@
+.adminBookingCard {
+    width: 100% !important;
+    margin-bottom: 30px;
+    word-wrap: break-word;
+}
+
+.adminBookingCard__header {
+    text-transform: capitalize;
+}
+
+.adminBookingCard__horizontalWrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.adminBookingCard__image {
+    flex: 0.4;
+    background-size: cover !important;
+    height: 300px;
+}
+
+.adminBookingCard__sideContent {
+    flex: 0.6;
+}
+
+.adminBookingCard__icon {
+    color: #dc3545;
+    font-size: 2rem !important;
+    margin-right: 5px;
+}
+
+.adminBookingCard__startDate {
+    margin: 10px 0 !important;
+}
+
+.adminBookingCard__divider {
+    margin: 20px 0 !important;
+}
+
+
+@media (max-width: 1000px) {
+    .adminBookingCard__horizontalWrapper {
+        flex-direction: column;
+        height: 600px;
+    }
+
+    .adminBookingCard__sideContent {
+        margin-top: 15px;
+    }
+}
+

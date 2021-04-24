@@ -1,0 +1,51 @@
+.userModal__form {
+    padding: 10px 80px 10px;
+}
+
+.registerForm,
+.loginForm {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.registerForm > .MuiTextField-root,
+.loginForm > .MuiTextField-root {
+    width: 100% !important;
+    margin: 10px 0 !important;
+}
+
+.registerForm > button,
+.loginForm > button {
+    margin-top: 10px;
+    width: 100%;
+    background-color: #dc3545;
+    margin-bottom: 10px;
+}
+
+.registerForm > button:hover,
+.loginForm > button:hover {
+    background-color: #f11a30;
+}
+
+.registerForm__message,
+.loginForm__message {
+    margin-top: 15px;
+}
+
+.userModal .MuiTab-textColorSecondary.Mui-selected {
+    color: #dc3545;
+}
+
+.loginForm__forgot {
+    color: #dc3545;
+}
+
+.loginForm__forgot:hover {
+    color: #f11a30;
+}
+
+@media (max-width: 1000px) {
+    .userModal__form {
+        padding: 10px 0;
+    }
+}

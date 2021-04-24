@@ -1,0 +1,118 @@
+.otherCard {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    height: 300px;
+    box-shadow: 3px 3px 5px #ddd, -3px -3px 5px #ddd;
+    margin-top: 30px;
+    transition: all ease 0.3s;
+    word-wrap: break-word;
+}
+
+.otherCard:hover {
+    box-shadow: 5px 5px 8px #ddd, -5px -5px 8px #ddd;
+    transform: scale(1.01);
+}
+ 
+.otherCard__image {
+    flex: 0.3;
+}
+
+.otherCard__image img {
+    width: 100%;
+    height: 100%;
+}
+
+.otherCard__body {
+    flex: 0.7;
+    display: flex;
+    flex-direction: row;
+}
+
+.otherCard__description {
+    flex: 0.7;
+    margin: 0 20px;
+}
+
+.otherCard__title {
+    text-transform: capitalize !important;
+    margin-right: 20px !important;
+}
+
+.otherCard__action {
+    flex: 0.3;
+}
+
+.otherCard__action {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.otherCard__action > button {
+    width: 100% !important;
+    background-color: #dc3545;
+}
+
+.otherCard__action > button:hover {
+    background-color: #f11a30;
+}
+
+.otherCard__action > a {
+    color: #fff !important;
+}
+
+.otherCard__action > a:hover {
+    color: #fff;
+}
+
+.otherCard ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.otherCard .MuiSvgIcon-root {
+    color: #dc3545;
+    margin-right: 5px;
+}
+
+.otherCard .MuiButton-root {
+    background-color: #dc3545;
+}
+
+.otherCard .MuiButton-root:hover {
+    background-color: #f11a30;
+}
+
+.otherCard a {
+    color: #dc3545;
+}
+
+
+@media (max-width: 1000px) {
+    .otherCard {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .otherCard__body {
+        flex-direction: column;
+    }
+
+    .otherCard__description {
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    .otherCard__action {
+        margin-top: 30px;
+    }
+
+    .otherCard__action .MuiButton-root {
+        margin-top: 20px;
+    }
+
+}

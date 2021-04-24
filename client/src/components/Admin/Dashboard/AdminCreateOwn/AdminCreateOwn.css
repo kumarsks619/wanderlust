@@ -1,0 +1,102 @@
+.adminCreateOwn__divider {
+    margin-bottom: 30px !important;
+}
+
+.adminCreateOwn__formGroup1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.adminCreateOwn__name {
+    flex: 0.75;
+}
+
+.adminCreateOwn__price {
+    flex: 0.2;
+}
+
+.adminCreateOwn__dataFormDynamicInput {
+    margin-top: 50px;
+}
+
+.adminCreateOwn__dataFormGroup2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.adminCreateOwn__dataFormGroup2 .MuiInputLabel-root {
+    font-size: 1.3rem;
+}
+
+.adminCreateOwn__dataFormResponsiveHidden {
+    margin-left: 5px;
+}
+
+.adminCreateOwn__dataFormBtn {
+    background-color: #dc3545 !important;
+}
+
+.adminCreateOwn__dataFormBtn:hover {
+    background-color: #f11a30 !important;
+}
+
+.doubleDynamicInput {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.doubleDynamicInput:last-child {
+    margin-bottom: 30px;
+}
+
+.doubleDynamicInput > .MuiTextField-root:first-child {
+    flex: 0.7 !important;
+}
+
+.doubleDynamicInput > .MuiTextField-root:nth-child(2) {
+    flex: 0.25 !important;
+}
+
+.adminCreateOwn__formBtn {
+    background-color: #dc3545 !important;
+    padding: 15px !important;
+    width: 100%;
+    margin: 50px 0 25px !important;
+}
+
+.adminCreateOwn__formBtn:hover {
+    background-color: #f11a30 !important;
+}
+
+.adminCreateOwn__pricesForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.adminCreateOwn__pricesFormGroup {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.adminCreateOwn__pricesFormGroup > .MuiTextField-root {
+    flex: auto;
+}
+
+.adminCreateOwn__pricesFormGroup > .MuiTextField-root:not(:last-child) {
+    margin-right: 20px;
+}
+
+.adminCreateOwn__pricesForm > .MuiInputLabel-root {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.adminCreateOwn__formBtn:last-child {
+    margin-top: 10px !important;
+}

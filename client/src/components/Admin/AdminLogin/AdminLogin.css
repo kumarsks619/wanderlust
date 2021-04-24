@@ -1,0 +1,52 @@
+.adminLogin {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.adminLogin__form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    padding: 50px 100px;
+    box-shadow: 3px 3px 5px #eee, -3px -3px 5px #eee;
+    box-sizing: border-box;
+}
+
+.adminLogin__form > h1 {
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.596);
+    margin-bottom: 20px;
+}
+
+.adminLogin__form > .MuiTextField-root {
+    margin: 10px 0 !important;
+    width: 350px;
+}
+
+.adminLogin__form > button {
+    margin-top: 10px !important;
+    width: 350px;
+    background-color: #dc3545;
+}
+
+.adminLogin__form > button:hover {
+    background-color: #f11a30;
+}
+
+.adminLogin__error {
+    margin-top: 20px;
+    width: 350px;
+}
+
+
+@media (max-width: 1000px) {
+    .adminLogin__form {
+        padding: 20px;
+    }
+
+    .adminLogin__form > .MuiTextField-root, .adminLogin__form > button, .adminLogin__error {
+        width: 100% !important;
+    }
+}

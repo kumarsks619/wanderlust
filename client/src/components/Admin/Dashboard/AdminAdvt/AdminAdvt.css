@@ -1,0 +1,94 @@
+.adminAdvt__divider {
+    margin-bottom: 30px !important;
+}
+
+.adminAdvt__formGroup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.adminAdvt__link {
+    flex: 0.35;
+}
+
+.adminAdvt__imageSelect {
+    flex: 0.45;
+    margin: 0 10px;
+    padding: 15px 20px;
+    background-color: #dc3545;
+    font-size: 0.9rem;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+        0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+}
+
+.adminAdvt__formBtn {
+    flex: 0.2;
+    background-color: #dc3545 !important;
+    padding: 15px !important;
+}
+
+.adminAdvt__formBtn:hover,
+.adminAdvt__imageSelect:hover {
+    background-color: #f11a30 !important;
+}
+
+.adminAdvt__card {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    height: 200px;
+}
+
+.adminAdvt__cardImage {
+    flex: 0.4;
+}
+
+.adminAdvt__cardHeader {
+    flex: 0.6;
+}
+
+@media (max-width: 1000px) {
+    .adminAdvt {
+        padding: 0;
+        width: 77vw;
+    }
+
+    .adminAdvt__header {
+        font-size: 1.8rem !important;
+    }
+
+    .adminAdvt__formGroup {
+        flex-direction: column;
+    }
+
+    .adminAdvt__imageSelect {
+        display: block !important;
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .adminAdvt__link {
+        width: 100%;
+    }
+
+    .adminAdvt__imageSelect > input {
+        display: none;
+    }
+
+    .adminAdvt__formBtn {
+        width: 100% !important;
+        margin-bottom: 50px !important;
+    }
+
+    .adminAdvt__card {
+        flex-direction: column !important;
+        height: 300px !important;
+    }
+}

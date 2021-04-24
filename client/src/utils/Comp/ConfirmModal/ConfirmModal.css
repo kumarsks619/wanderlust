@@ -1,0 +1,7 @@
+.confirmModal__btn {
+    background-color: #dc3545;
+}
+
+.confirmModal__btn:hover {
+    background-color: #f11a30;
+}

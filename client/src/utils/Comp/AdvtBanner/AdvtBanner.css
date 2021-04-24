@@ -1,0 +1,36 @@
+.advtBanner {
+    width: 95%;
+    height: 300px;
+    margin: 40px auto;
+}
+
+.advtBanner a {
+    display: block;
+    max-height: 300px;
+    min-width: 100%;
+}
+
+.advtBanner a img {
+    width: 100%;
+    max-height: 300px;
+    animation: delayed-fade-animation 1s infinite linear;
+}
+
+@keyframes delayed-fade-animation {
+    0% {
+        transform: scale(0.9);
+    }
+    50% {
+        transform: scale(0.93);
+    }
+    100% {
+        transform: scale(0.9);
+    }
+}
+
+@media (max-width: 1000px) {
+    .advtBanner {
+        margin: 10px auto 15px;
+        height: 150px;
+    }
+}

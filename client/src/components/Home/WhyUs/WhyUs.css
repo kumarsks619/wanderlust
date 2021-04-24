@@ -1,0 +1,25 @@
+.whyUs__heading {
+    margin: 50px 0 30px 20px;
+    font-size: 2rem;
+}
+
+.whyUs__cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+
+
+@media (max-width: 1000px) {
+    .whyUs__cards {
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+
+    .whyUs__heading {
+        margin: 0;
+        text-align: center;
+        margin-top: 50px;
+    }
+}

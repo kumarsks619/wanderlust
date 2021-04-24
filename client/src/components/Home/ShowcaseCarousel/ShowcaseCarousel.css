@@ -1,0 +1,30 @@
+.showcaseCarousel__navBtns {
+    position: relative;
+}
+
+.showcaseCarousel {
+    width: 100%;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.showcaseCarousel__navBtnPrev, .showcaseCarousel__navBtnNext {
+    position: absolute !important;
+    z-index: 10;
+    top: 180px;
+    background-color: #dc3545 !important;
+}
+
+.showcaseCarousel__navBtnPrev:focus, .showcaseCarousel__navBtnNext:focus {
+    outline: none;
+}
+
+.showcaseCarousel__navBtnNext {
+    right: 0;
+}
+
+.showcaseCarousel__items {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}

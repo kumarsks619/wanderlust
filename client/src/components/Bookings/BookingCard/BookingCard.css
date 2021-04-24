@@ -1,0 +1,100 @@
+.bookingCard {
+    width: 100% !important;
+    margin-bottom: 30px;
+    word-wrap: break-word;
+}
+
+.bookingCard__header {
+    text-transform: capitalize;
+}
+
+.bookingCard__horizontalWrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.bookingCard__image {
+    flex: 0.4;
+    background-size: cover !important;
+    height: 300px;
+}
+
+.bookingCard__sideContent {
+    flex: 0.6;
+}
+
+.bookingCard__icon {
+    color: #dc3545;
+    font-size: 2rem !important;
+    margin-right: 5px;
+}
+
+.bookingCard__startDate {
+    margin: 10px 0 !important;
+}
+
+.bookingCard__divider {
+    margin: 20px 0 !important;
+}
+
+.bookingCard__subHeading {
+    margin: 10px 0 5px !important;
+}
+
+.bookingCard__bulletPoint {
+    color: #dc3545;
+}
+
+.bookingCard__readMore {
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.bookingCard__readMore:hover {
+    color: #dc3545;
+    text-decoration: underline;
+}
+
+.bookingCard__bookingDetailsWrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.bookingCard__bookingDetailsLeft,
+.bookingCard__bookingDetailsRight {
+    flex: 0.5;
+}
+
+.bookingCard__bookingDetailsHeading {
+    margin-top: -15px !important;
+    margin-bottom: 10px;
+}
+
+.bookingCard__bookingDetailsGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+
+@media (max-width: 1000px) {
+    .bookingCard__horizontalWrapper {
+        display: block;
+    }
+
+    .bookingCard__image {
+        height: 200px;
+    }
+
+    .bookingCard__bookingDetailsWrapper {
+        flex-direction: column;
+    }
+
+    .bookingCard__bookingDetailsHeading {
+        margin-top: 15px !important;
+    }
+
+    .bookingCard__bookingDetailsRight {
+        margin-top: 15px;
+    }
+}

@@ -1,0 +1,95 @@
+.footer {
+    padding: 100px 100px 50px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/footer/footer.jpg");
+    background-position: center;
+    margin-top: 100px;
+}
+
+.footer__contentAndFormWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__contentAndFormWrapper p {
+    flex: 0.8;
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+.footer__contentAndFormWrapper p span:nth-child(1) {
+    border-top: 4px solid #fff;
+}
+
+.footer__contentAndFormWrapper p span:nth-last-child(1) {
+    border-bottom: 4px solid #fff;
+}
+
+.footer__contentAndFormWrapper form {
+    flex: 0.2;
+}
+
+.footer__contentAndFormWrapper form input {
+    margin: 15px 0;
+}
+
+.footer__formCheckbox {
+    display: flex;
+    margin-top: 10px;
+}
+
+.footer__formCheckbox label {
+    margin-left: 10px;
+}
+
+.footer__contentAndFormWrapper form .btn {
+    margin-top: 20px;
+    border-radius: 18px;
+    padding: 5px 30px;
+}
+
+.footer__creditsWrapper {
+    margin-top: 100px;
+}
+
+.footer__credits {
+    color: #fff;
+    text-align: center;
+}
+
+.footer__credits a {
+    color: #f11a30;
+    font-weight: 800;
+    letter-spacing: 5px;
+    padding-bottom: 2px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.459);
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+.footer__credits a:hover {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+
+@media (max-width: 1000px) {
+    .footer {
+        padding: 30px 20px;
+    }
+
+    .footer__contentAndFormWrapper {
+        flex-direction: column;
+    }
+
+    .footer__contentAndFormWrapper p {
+        font-size: 2rem;
+    }
+
+    .footer__formCheckbox label {
+        color: #fff;
+    }
+}

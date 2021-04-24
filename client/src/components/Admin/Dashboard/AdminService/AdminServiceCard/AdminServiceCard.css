@@ -1,0 +1,68 @@
+.serviceCard {
+    width: 100% !important;
+    margin-bottom: 30px;
+    word-wrap: break-word !important;
+}
+
+.serviceCard__header {
+    text-transform: capitalize;
+}
+
+.serviceCard__horizontalWrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.serviceCard__image {
+    flex: 0.4;
+    background-size: cover !important;
+    height: 300px;
+}
+
+.serviceCard__sideContent {
+    flex: 0.6;
+}
+
+.serviceCard__icon {
+    color: #dc3545;
+    font-size: 2rem !important;
+    margin-right: 5px;
+}
+
+.serviceCard__startDate {
+    margin: 10px 0 !important;
+}
+
+.serviceCard__divider {
+    margin: 20px 0 !important;
+}
+
+.serviceCard__subHeading {
+    margin: 10px 0 5px !important;
+}
+
+.serviceCard__bulletPoint {
+    color: #dc3545;
+}
+
+.serviceCard__readMore {
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.serviceCard__readMore:hover {
+    color: #dc3545;
+    text-decoration: underline;
+}
+
+
+
+@media (max-width: 1000px) {
+    .serviceCard__horizontalWrapper {
+        display: block;
+    }
+
+    .serviceCard__image {
+        height: 200px;
+    }
+}

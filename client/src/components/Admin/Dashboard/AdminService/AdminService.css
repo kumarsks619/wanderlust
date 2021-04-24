@@ -1,0 +1,9 @@
+.adminService__divider {
+    margin-bottom: 30px !important;
+}
+
+@media (max-width: 1000px) {
+    .adminService__header {
+        font-size: 1.8rem !important;
+    }
+}

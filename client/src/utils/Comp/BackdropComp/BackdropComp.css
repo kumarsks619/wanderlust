@@ -1,0 +1,10 @@
+.backdropComp__content {
+    text-align: center;
+}
+
+
+@media (max-width: 1000px) {
+    .backdropComp__content {
+        font-size: 2rem;
+    }
+}

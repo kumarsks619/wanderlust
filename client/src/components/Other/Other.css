@@ -1,0 +1,32 @@
+.other__header {
+    width: 100%;
+    background-position: bottom;
+    height: 300px;
+    display: grid;
+    place-items: center;
+    color: #fff;  
+    margin-bottom: 50px;  
+}
+
+.other__headerTreks {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../images/tabsHeader/treks-header.jpg');
+}
+
+.other__headerCamps {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../images/tabsHeader/camps-header.jpg');
+}
+
+.other__headerPackages {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../images/tabsHeader/packages-header.jpg');
+}
+
+
+@media (max-width: 1000px) {
+    .other__header {
+        height: 150px;
+    }
+
+    .other__header > h1 {
+        font-size: 1.5rem;
+    }
+}
